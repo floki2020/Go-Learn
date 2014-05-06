@@ -5,10 +5,15 @@ import (
 	"strings"
 )
 
-func main() {
-	
-	var str string="This is a test demo!!!"
+//查看字符 在字符串中出现的次数
 
-	fmt.Printf("The count is %d", ...)
+func main() {
+
+	var str string = "This is a test demo!!!"
+	var sep string = "s"
+
+	fmt.Printf("The count of \"%s\" in \"%s\" is %d", sep, str, strings.Count(str, sep))
 }
 
+//output
+//The count of "s" in "This is a test demo!!!" is 3
