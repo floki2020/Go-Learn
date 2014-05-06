@@ -8,4 +8,4 @@ Some demos  to learn golang!
 
 
 
-[目录](https://github.com/cocoa-alex/Go-Learn/blob/master/doc/catalog.md)
+[目录](doc/catalog.md)
